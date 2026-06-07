@@ -1,0 +1,4 @@
+IF DB_ID('PayrollDB') IS NULL
+BEGIN
+    CREATE DATABASE PayrollDB;
+END
